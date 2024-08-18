@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import Banner from "./components/banner/Banner";
 import Counter from "./components/counter/Counter";
 import CourseClasses from "./components/CourseClasses/CourseClasses";
+import Faq from "./components/FAQ/Faq";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Banner/>
       <Counter/>
       <CourseClasses/>
+      <Faq/>
     </main>
   );
 }
