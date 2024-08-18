@@ -1,13 +1,13 @@
-import { TiSocialFacebook } from "react-icons/ti";
-import { TiSocialTwitter } from "react-icons/ti";
 import { AiFillYoutube } from "react-icons/ai";
+import { TiSocialFacebook, TiSocialTwitter } from "react-icons/ti";
 
 const Navbar = () => {
   return (
     <div className="flex items-center justify-between py-4">
       <div>
-        <div className="text-xl font-semibold">
-          Antu's <span className="text-xs block -mt-2">Chemistry Care</span>
+        <div className="text-xl font-semibold text-[#0ABAB5]">
+          Antu's{" "}
+          <span className="text-xs block -mt-2 text-black">Chemistry Care</span>
         </div>
       </div>
       <div>
@@ -18,9 +18,9 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex items-center gap-5 text-lg">
-        <TiSocialFacebook className="hover:text-emerald-500 cursor-pointer"/>
-        <TiSocialTwitter className="hover:text-emerald-500 cursor-pointer"/>
-        <AiFillYoutube className="hover:text-emerald-500 cursor-pointer"/>
+        <TiSocialFacebook className="hover:text-emerald-500 cursor-pointer" />
+        <TiSocialTwitter className="hover:text-emerald-500 cursor-pointer" />
+        <AiFillYoutube className="hover:text-emerald-500 cursor-pointer" />
       </div>
     </div>
   );
