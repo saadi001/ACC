@@ -8,9 +8,9 @@ import Title from "../shared/Title/Title";
 
 const Faq = () => {
   return (
-    <div className="py-8">
+    <div className="py-10">
       <Title>Frequently Asked Questions</Title>
-      <div className="mt-12 max-w-lg mx-auto">
+      <div className="py-10 max-w-lg mx-auto">
         <Accordion type="single" collapsible defaultValue="item-1" className="">
           <AccordionItem value="item-1">
             <AccordionTrigger>Is it accessible?</AccordionTrigger>
