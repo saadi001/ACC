@@ -10,13 +10,13 @@ const CourseClasses = () => {
       <Title>Classes</Title>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-12">
         <SingleClass
-          chapter={1}
+          paper={"1st"}
           image={book1}
           chapterData={chapter1}
           chapterBG={"bg-gradient-to-br from-red-300 to-red-200"}
         />
         <SingleClass
-          chapter={2}
+          paper={"2nd"}
           image={book3}
           chapterData={chapter2}
           imageWidth={"!w-8 !ml-0"}

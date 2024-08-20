@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-10 container-custom">
+    <footer className="bg-blue-50 container-custom">
       <div className="px-6 py-8 ">
         <div className="flex flex-col items-center text-center">
           <Link href={"/"}>
@@ -15,50 +15,45 @@ const Footer = () => {
           </Link>
 
           <div className="flex flex-wrap justify-center mt-6 -mx-4">
-            <a
-              href="#"
+            <Link
+              href="/"
               className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
-              aria-label="Reddit"
+              aria-label="Home"
             >
               {" "}
               Home{" "}
-            </a>
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              href="/about"
               className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
               aria-label="Reddit"
             >
-              {" "}
               About{" "}
-            </a>
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              href="/classes"
               className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
               aria-label="Reddit"
             >
-              {" "}
-              Teams{" "}
-            </a>
+              Classes
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              href="/faq"
+              className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
+              aria-label="Reddit"
+            >FAQ
+            </Link>
+
+            <Link
+              href="/contact"
               className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
               aria-label="Reddit"
             >
-              {" "}
-              Privacy{" "}
-            </a>
-
-            <a
-              href="#"
-              className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
-              aria-label="Reddit"
-            >
-              {" "}
-              Cookies{" "}
-            </a>
+              Contact
+            </Link>
           </div>
         </div>
 
@@ -66,7 +61,7 @@ const Footer = () => {
 
         <div className="flex flex-col items-center sm:flex-row sm:justify-between">
           <p className="text-sm text-gray-500 dark:text-gray-300">
-            © Copyright 2021. All Rights Reserved.
+            © Copyright 2024. All Rights Reserved.
           </p>
 
           <div className="flex -mx-2">

@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const SingleClass = ({
-  chapter,
+  paper,
   image,
   chapterData,
   imageWidth,
@@ -15,7 +15,7 @@ const SingleClass = ({
       <h5
         className={` text-sm font-medium px-3 py-1 rounded-md w-fit ${chapterBG}`}
       >
-        Chapter {chapter}
+        {paper} Paper
       </h5>
       <div className="">
         <div className="flex items-center gap-3 mt-4">
