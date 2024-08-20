@@ -9,42 +9,17 @@ const Gallery = () => {
       <Title>My Previous Students</Title>
       <div className="pt-14 pb-8">
         <Marquee pauseOnHover>
-          <div className="w-56 h-72 mx-2">
-            <Image
-              src={img}
-              alt="gallery photo"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="w-56 h-72 mx-2">
-            <Image
-              src={img}
-              alt="gallery photo"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="w-56 h-72 mx-2">
-            <Image
-              src={img}
-              alt="gallery photo"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="w-56 h-72 mx-2">
-            <Image
-              src={img}
-              alt="gallery photo"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="w-56 h-72 mx-2">
-            <Image
-              src={img}
-              alt="gallery photo"
-              className="w-full h-full object-cover"
-            />
-          </div>
-         
+          {[1, 2, 3, 4, 5].map((details, i) => {
+            return (
+              <div key={i} className="w-56 h-72 mx-2">
+                <Image
+                  src={img}
+                  alt="gallery photo"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            );
+          })}
         </Marquee>
       </div>
     </div>
