@@ -6,6 +6,7 @@ import Faq from "./components/FAQ/Faq";
 import Footer from "./components/footer/Footer";
 import Gallery from "./components/gallery/Gallery";
 import Navbar from "./components/navbar/Navbar";
+import Reviews from "./components/reviews/Reviews";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <About/>
       <CourseClasses />
       <Gallery/>
+      <Reviews/>
       <Faq />
       </div>
       <Footer />
