@@ -13,16 +13,13 @@ const Reviews = () => {
   };
   return (
     <div className="py-8">
-      <Title>Reviews from previous students</Title>
-      <div className="pt-12 pb-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 asp">
+      <Title className={"capitalize"}>Reviews from previous students</Title>
+      <div className="py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 ">
         {[1, 2, 3].map((video, i) => {
           return (
-            <YouTube
-              key={i}
-              videoId="orMHY6fBsmk"
-              opts={opts}
-              className="aspect-video"
-            />
+            <div key={i} className="rounded-lg overflow-hidden">
+              <YouTube videoId="orMHY6fBsmk" opts={opts} className="aspect-video" />
+            </div>
           );
         })}
       </div>

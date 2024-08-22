@@ -1,5 +1,6 @@
 import About from "./components/about/About";
 import Banner from "./components/banner/Banner";
+import Contact from "./components/contact/Contact";
 import Counter from "./components/counter/Counter";
 import CourseClasses from "./components/CourseClasses/CourseClasses";
 import Faq from "./components/FAQ/Faq";
@@ -10,16 +11,17 @@ import Reviews from "./components/reviews/Reviews";
 
 export default function Home() {
   return (
-    <main >
+    <main>
       <div className="container-custom">
-      <Navbar />
-      <Banner />
-      <Counter />
-      <About/>
-      <CourseClasses />
-      <Gallery/>
-      <Reviews/>
-      <Faq />
+        <Navbar />
+        <Banner />
+        <Counter />
+        <About />
+        <CourseClasses />
+        <Gallery />
+        <Reviews />
+        <Contact />
+        <Faq />
       </div>
       <Footer />
     </main>
