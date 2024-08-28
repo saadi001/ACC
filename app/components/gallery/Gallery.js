@@ -18,8 +18,9 @@ const Gallery = () => {
                   alt="gallery photo"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-x-0">
-                  <p>hello</p>
+                <div className="absolute inset-x-0 bottom-0 z-20 bg-gradient-to-b from-transparent to-black py-2 px-3 text-gray-300">
+                  <p className="font-medium">Antu Saha</p>
+                  <p className="text-xs -mt-1">Barishal University</p>
                 </div>
               </div>
             );
@@ -29,5 +30,6 @@ const Gallery = () => {
     </div>
   );
 };
+
 
 export default Gallery;

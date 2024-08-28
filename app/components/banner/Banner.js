@@ -6,21 +6,28 @@ import book2 from "../../asset/images/books2.png";
 import book3 from "../../asset/images/books3.jpg";
 
 const Banner = () => {
+
+// sm	640px	
+// md	768px
+// lg	1024px	
+// xl	1280px
   return (
-    <div className="grid grid-cols-2 gap-1 py-12 items-center">
-      <div>
-        <h3 className="text-[54px] text-slate-800 leading-none font-semibold">
-          Make Design That <br /> Engage, Delight <br /> and Connect
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-1 py-12 items-center">
+      <div className="">
+        <h3 className="text-[35px] md:text-[50px] text-slate-800 text-center md:text-start leading-9 md:leading-[60px] font-semibold">
+          Your Journey Through The Chemical World Starts Here
         </h3>
-        <p className="text-gray-700 mt-14">
-          Hi, I'm antu saha! With more than 10 years of experience, <br />
-          I&aposm ready to be a part of your wonderful project.{" "}
+        <p className="text-gray-700 text-center md:text-start mt-8 md:mt-12 text-sm md:text-base">
+          With 4 years of dedicated teaching experience and currently pursuing
+          advanced studies in chemistry at Barishal University, I bring
+          both practical knowledge and cutting-edge academic insights to every
+          lesson.
         </p>
-        <div className="mt-8 flex items-center gap-6">
-          <button className="px-5 py-1.5 bg-gradient-to-br rounded-lg from-emerald-500 to-[#0ABAB5] text-white capitalize">
+        <div className="mt-8 flex items-center justify-center md:justify-start gap-6">
+          <button className=" text-sm md:text-base px-5 py-1.5 bg-gradient-to-br rounded-lg from-emerald-500 to-[#0ABAB5] text-white capitalize">
             join now
           </button>
-          <button className="flex items-center gap-2">
+          <button className="text-sm md:text-base flex items-center gap-2">
             Previous Works <MdOutlineArrowOutward />
           </button>
         </div>
@@ -53,12 +60,12 @@ const Banner = () => {
           </div>
           <div
             style={{ boxShadow: "0 0 50px #ccc" }}
-            className="absolute bottom-2 right-20 w-16 h-16 bg-white shadow-[0 0 50px #ccc] rounded-full p-"
+            className="absolute bottom-1 md:bottom-2 right-12 md:right-20 w-16 h-16 bg-white shadow-[0 0 50px #ccc] rounded-full p-"
           >
             <Image
               src={book3}
               alt="books"
-              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-cover w-8"
+              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-cover w-8 "
             />
           </div>
         </div>
