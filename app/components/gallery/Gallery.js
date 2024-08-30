@@ -12,7 +12,7 @@ const Gallery = () => {
         <Marquee pauseOnHover>
           {[1, 2, 3, 4, 5].map((details, i) => {
             return (
-              <div key={i} className="w-56 h-72 mx-2 relative">
+              <div key={i} className="w-32 md:w-56 h-52 md:h-72 mx-2 relative">
                 <Image
                   src={img}
                   alt="gallery photo"
