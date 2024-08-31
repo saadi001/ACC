@@ -6,11 +6,10 @@ import book2 from "../../asset/images/books2.png";
 import book3 from "../../asset/images/books3.jpg";
 
 const Banner = () => {
-
-// sm	640px	
-// md	768px
-// lg	1024px	
-// xl	1280px
+  // sm	640px
+  // md	768px
+  // lg	1024px
+  // xl	1280px
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-1 py-12 items-center">
       <div className="">
@@ -19,8 +18,8 @@ const Banner = () => {
         </h3>
         <p className="text-gray-700 text-center md:text-start mt-8 md:mt-12 text-sm md:text-base">
           With 4 years of dedicated teaching experience and currently pursuing
-          advanced studies in chemistry at Barishal University, I bring
-          both practical knowledge and cutting-edge academic insights to every
+          advanced studies in chemistry at Barishal University, I bring both
+          practical knowledge and cutting-edge academic insights to every
           lesson.
         </p>
         <div className="mt-8 flex items-center justify-center md:justify-start gap-6">
@@ -44,7 +43,7 @@ const Banner = () => {
           />
           <div
             style={{ boxShadow: "0 0 50px #ccc" }}
-            className="absolute top-5 right-14 w-16 bg-white shadow-[0 0 50px #ccc] rounded-full p-2"
+            className="absolute top-1 sm:top-3  md:top-5 right-5 sm:right-10 md:right-14 w-16 bg-white shadow-[0 0 50px #ccc] rounded-full p-2"
           >
             <Image
               src={book1}

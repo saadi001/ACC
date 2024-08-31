@@ -10,7 +10,7 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 gap-12 py-10 md:grid-cols-2 lg:grid-cols-3">
           <div className="flex flex-col items-center justify-center text-center">
-            <span className="p-3 text-[#0ABAB5] rounded-full bg-blue-100/80 dark:bg-gray-800">
+            <span className="p-3 text-[#0ABAB5] rounded-full bg-blue-100/80 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -27,19 +27,18 @@ const Contact = () => {
               </svg>
             </span>
 
-            <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">
-              Email
-            </h2>
-            <p className="mt-2 text-gray-500 dark:text-gray-400">
-              You can email me anytime.
-            </p>
-            <p className="mt-2 text-blue-500 dark:text-blue-400">
-              hello@merakiui.com
-            </p>
+            <h2 className="mt-4 text-lg font-medium text-gray-800 ">Email</h2>
+            <p className="mt-2 text-gray-500 ">You can email me anytime.</p>
+            <a
+              href="mailto:antusaha77889@gmail.com "
+              className="mt-2 text-[#0ABAB5]"
+            >
+              antusaha77889@gmail.com
+            </a>
           </div>
 
           <div className="flex flex-col items-center justify-center text-center">
-            <span className="p-3 text-[#0ABAB5] rounded-full bg-blue-100/80 dark:bg-gray-800">
+            <span className="p-3 text-[#0ABAB5] rounded-full bg-blue-100/80">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -61,19 +60,19 @@ const Contact = () => {
               </svg>
             </span>
 
-            <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">
-              Message
-            </h2>
-            <p className="mt-2 text-gray-500 dark:text-gray-400">
-              Message me in my social media.
-            </p>
-            <p className="mt-2 text-blue-500 dark:text-blue-400">
-              100 Smith Street Collingwood VIC 3066 AU
-            </p>
+            <h2 className="mt-4 text-lg font-medium text-gray-800 ">Message</h2>
+            <p className="mt-2 text-gray-500">Message me in my social media.</p>
+            <a
+              href="https://www.facebook.com/antu.saha.1542"
+              target="_blank"
+              className="mt-2 text-[#0ABAB5]"
+            >
+              antu.saha.1542
+            </a>
           </div>
 
           <div className="flex flex-col items-center justify-center text-center">
-            <span className="p-3 text-[#0ABAB5] rounded-full bg-blue-100/80 dark:bg-gray-800">
+            <span className="p-3 text-[#0ABAB5] rounded-full bg-blue-100/80">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -90,15 +89,9 @@ const Contact = () => {
               </svg>
             </span>
 
-            <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">
-              Phone
-            </h2>
-            <p className="mt-2 text-gray-500 dark:text-gray-400">
-              Everyday from 8am to 5pm.
-            </p>
-            <p className="mt-2 text-blue-500 dark:text-blue-400">
-              +1 (555) 000-0000
-            </p>
+            <h2 className="mt-4 text-lg font-medium text-gray-800 ">Phone</h2>
+            <p className="mt-2 text-gray-500 ">Everyday from 8am to 5pm.</p>
+            <a href="tel:+8801575041882" className="mt-2 text-[#0ABAB5]">+8801575041882</a>
           </div>
         </div>
       </div>
