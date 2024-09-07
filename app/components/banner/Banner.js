@@ -32,7 +32,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="">
-        <div className="w-[79%] mx-auto rounded-full z-40 relative">
+        <div className="w-[79%] mx-auto rounded-full z-10 relative">
           {" "}
           <Image
             src={imgBanner}

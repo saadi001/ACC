@@ -4,7 +4,7 @@ import Title from "../shared/Title/Title";
 
 const About = () => {
   return (
-    <div className="py-8">
+    <div className="py-8" id="about">
       <Title>About</Title>
       <div className="py-10 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-2 items-center gap-">
         <div className="relative">

@@ -1,3 +1,4 @@
+import { faqData } from "@/app/asset/data/faq";
 import {
   Accordion,
   AccordionContent,
@@ -8,30 +9,18 @@ import Title from "../shared/Title/Title";
 
 const Faq = () => {
   return (
-    <div className="py-10">
+    <div id="faq" className="py-10">
       <Title>Frequently Asked Questions</Title>
-      <div className="py-10 max-w-lg mx-auto">
+      <div className="py-10 max-w-xl mx-auto">
         <Accordion type="single" collapsible defaultValue="item-1" className="">
-          <AccordionItem value="item-1">
-            <AccordionTrigger>Is it accessible?</AccordionTrigger>
-            <AccordionContent>
-              Yes. It adheres to the WAI-ARIA design pattern.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-2">
-            <AccordionTrigger>Is it styled?</AccordionTrigger>
-            <AccordionContent>
-              Yes. It comes with default styles that matches the other
-              components&apos; aesthetic.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-3">
-            <AccordionTrigger>Is it animated?</AccordionTrigger>
-            <AccordionContent>
-              Yes. Its animated by default, but you can disable it if you
-              prefer.
-            </AccordionContent>
-          </AccordionItem>
+          {faqData.map((faq, i) => {
+            return (
+              <AccordionItem key={i} value={`item-${i + 1}`}>
+                <AccordionTrigger>{faq?.ques}</AccordionTrigger>
+                <AccordionContent>{faq?.ans}</AccordionContent>
+              </AccordionItem>
+            );
+          })}
         </Accordion>
       </div>
     </div>

@@ -5,7 +5,7 @@ import Title from "../shared/Title/Title";
 
 const Gallery = () => {
   return (
-    <div className="py-8">
+    <div id="gallery" className="py-8">
       <Title>My Previous Students</Title>
       <div className="pt-14 pb-8">
         <Marquee pauseOnHover>

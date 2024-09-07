@@ -6,7 +6,7 @@ import SingleClass from "./SingleClass";
 
 const CourseClasses = () => {
   return (
-    <div className="py-8">
+    <div id="classes" className="py-8">
       <Title>Classes</Title>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-12">
         <SingleClass

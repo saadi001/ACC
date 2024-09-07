@@ -2,7 +2,7 @@ import Title from "../shared/Title/Title";
 
 const Contact = () => {
   return (
-    <section className="">
+    <section id="contact" className="">
       <div className=" mx-auto">
         <div className="py-8">
           <Title>Contact Me</Title>
@@ -90,7 +90,7 @@ const Contact = () => {
             </span>
 
             <h2 className="mt-4 text-lg font-medium text-gray-800 ">Phone</h2>
-            <p className="mt-2 text-gray-500 ">Everyday from 8am to 5pm.</p>
+            <p className="mt-2 text-gray-500 ">Everyday from 8am to 10pm.</p>
             <a href="tel:+8801575041882" className="mt-2 text-[#0ABAB5]">+8801575041882</a>
           </div>
         </div>
