@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col items-center text-center">
           <Link href={"/"}>
             <span className="text-xl font-semibold text-[#0ABAB5]">
-              Antu's{" "}
+              Antu&apos;s
               <span className="text-xs block -mt-2 text-black">
                 Chemistry Care
               </span>

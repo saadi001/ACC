@@ -16,8 +16,8 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between py-3 md:py-5">
       <div>
-        <Link href={"/"} className="text-xl font-semibold text-[#0ABAB5]">
-          Antu's{" "}
+        <Link href={"/"} className="text-2xl font-semibold text-[#0ABAB5]">
+          Antu&apos;s
           <span className="text-xs block -mt-2 text-gray-800">
             Chemistry Care
           </span>
