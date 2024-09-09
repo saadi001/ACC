@@ -1,9 +1,11 @@
 import Image from "next/image";
-import { MdOutlineArrowOutward } from "react-icons/md";
+
 import imgBanner from "../../asset/images/antu banner.png";
 import book1 from "../../asset/images/books1.png";
 import book2 from "../../asset/images/books2.png";
 import book3 from "../../asset/images/books3.jpg";
+import BannerLinkButton from "../shared/BannerLinkButton/BannerLinkButton";
+import PreviosStudentsButton from "../shared/PreviosStudentsButton";
 
 const Banner = () => {
   // sm	640px
@@ -23,12 +25,8 @@ const Banner = () => {
           lesson.
         </p>
         <div className="mt-8 flex items-center justify-center md:justify-start gap-6">
-          <button className=" text-sm md:text-base px-5 py-1.5 bg-gradient-to-br rounded-lg from-emerald-500 to-[#0ABAB5] text-white capitalize">
-            join now
-          </button>
-          <button className="text-sm md:text-base flex items-center gap-2">
-            Previous Works <MdOutlineArrowOutward />
-          </button>
+          <BannerLinkButton />
+          <PreviosStudentsButton />
         </div>
       </div>
       <div className="">
